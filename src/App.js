@@ -1,13 +1,12 @@
 import React from 'react';
 import { Routes, Route, useLocation, Link } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import HomeApp from './Home';
-import Aboutme from './aboutme';
-import Project from './project';
-import Contact from './contact';
-import Chatbot from './chatbot';
+import HomeApp from './components/Home';
+import Aboutme from './components/aboutme';
+import Project from './components/project';
+import Contact from './components/contact';
+import Chatbot from './components/chatbot';
 import './App.css';
-import './social_media.css';
 
 function App() {
   const location = useLocation();

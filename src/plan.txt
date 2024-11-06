@@ -1,13 +1,19 @@
-TOP -> link to github/ linkdin
+TOP -> link to github/ linkdin -> done
 
 
 
 
 Projects
 
-My self ( use chatbot)
+About me -> Resume (experience)
 
-Contact with me
+Contact with me -> ( just like a sending email  and social media links)
 
-Resume 
 
+
+Chatbot -> ( )
+
+
+Colour codes
+
+/* Hex codes: #002C54, #C5001A, #FDF6F6 */

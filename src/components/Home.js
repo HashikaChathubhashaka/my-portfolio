@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import './Home.css'
-import './home.scss'
+import './Home.scss'
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
