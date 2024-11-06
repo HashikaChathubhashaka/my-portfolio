@@ -22,30 +22,39 @@ function Home() {
 
   const handleBigButtonClick = () => {
     const binaryValue = calculateBinaryValue();
-    if (binaryValue === 9) {
-      navigate('/page-x');
+    if (binaryValue === 12) {
+      navigate('/aboutme');
     }
     else if (binaryValue === 5) {
       navigate('/project');
     }
+    else if (binaryValue === 4) {
+      navigate('/contact');
+    }
+    else if (binaryValue === 10) {
+      navigate('/chatbot');
+    }
+  
 
     else {
-      const messages = {
-        1: 'about me',
-        5: 'my projects',
-        8: 'chat with me',
-      };
-      setMessage(messages[binaryValue] || 'Invalid Code');
+
+      setMessage( 'Invalid Code');
     }
   };
 
   return (
     
     <div>
+            <div>
+        <h1>
+          <span>Hashika</span>
+          <span>Chathubhashaka</span>
+        </h1>
+        <h3>Electronic & Robotic Developer</h3>
+      </div>
 
 
-<div >
-
+<div>
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
     <a aria-label='0b0011' class='h-button' data-text='About Me'>
@@ -57,13 +66,13 @@ function Home() {
         <span>1</span>
     </a>
     
-    <a aria-label='0b0101' class='h-button' data-text='Projects'>
+    <a aria-label='0b1010' class='h-button' data-text='Projects'>
         <span>0</span>
         <span>b</span>
-        <span>0</span>
         <span>1</span>
         <span>0</span>
         <span>1</span>
+        <span>0</span>
     </a>
 
     <a aria-label='0b0010' class='h-button' data-text='Contact'>
@@ -75,7 +84,7 @@ function Home() {
         <span>0</span>
     </a>
 
-    <a aria-label='0b1000' class='h-button' data-text='Chat'>
+    <a aria-label='0b1000' class='h-button' data-text='Chatbot'>
         <span>0</span>
         <span>b</span>
         <span>1</span>
@@ -88,18 +97,8 @@ function Home() {
 
 </div>
   
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
-
-
-      
-      
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>      
       <div style={{ textAlign: 'center', padding: '20px' }}>
-
-
-
-
-
-
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
           {buttons.map((value, index) => (
@@ -122,14 +121,6 @@ function Home() {
           Lets Go 
         </button>
         <h2 className="h2-1">{message}</h2>
-
-
-
-
-
-
-
-
       </div>
     </div>
     </div>

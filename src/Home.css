@@ -7,7 +7,6 @@ body {
 
 
 /* Switch starts here */
-
 .rocker {
     display: inline-block;
     position: relative;
@@ -218,3 +217,78 @@ body {
     padding-top: 10px;
     margin-bottom: 24px;
   }
+
+
+
+
+
+  .home-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .home-link {
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #ddd;
+  }
+  
+
+
+
+  /* header */
+
+h1 {
+  --color-one: #002C54;
+  --color-two: #002C54;
+  --stretch-multiplier: 5;
+  font-size: clamp(2rem, 10vmin, 26rem);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  line-height: 1;
+  margin: 0;
+  margin-top: 100px;
+  padding: 0;
+  color: transparent;
+  background: linear-gradient(90deg, var(--color-one), var(--color-two));
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: stretch var(--stretch-multiplier)s infinite linear;
+  text-align: center;
+
+}
+
+
+h3 {
+  --color-one: #002C54;
+  --color-two: #002C54;
+  --stretch-multiplier: 5;
+  font-size: clamp(1rem, 3vmin, 6rem);
+  font-family: 'Poppins', sans-serif;
+
+  display: grid;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  background: linear-gradient(90deg, var(--color-one), var(--color-two));
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: stretch var(--stretch-multiplier)s infinite linear;
+  text-align: center;
+
+}
+
+
+
+/* Hex codes: #002C54, #C5001A, #FDF6F6 */

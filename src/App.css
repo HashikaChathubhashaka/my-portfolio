@@ -1,7 +1,13 @@
+body {
+  background-color: #FDF6F6;
+}
+
+/* use in switches design */
 html {
   box-sizing: border-box;
-  font-size: 100%;
+
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
   margin:0;
@@ -14,9 +20,6 @@ html {
   padding-top:1em;
 }
 
-body {
-  background-color: #FDF6F6;
-}
 
 
 /* slling effects */
@@ -84,48 +87,6 @@ body {
 
 
 /* header */
-
-h1 {
-  --color-one: #002C54;
-  --color-two: #002C54;
-  --stretch-multiplier: 5;
-  font-size: clamp(2rem, 12vmin, 6rem);
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  display: grid;
-  line-height: 1;
-  margin: 0;
-  margin-top: 100px;
-  padding: 0;
-  color: transparent;
-  background: linear-gradient(90deg, var(--color-one), var(--color-two));
-  background-clip: text;
-  -webkit-background-clip: text;
-  animation: stretch var(--stretch-multiplier)s infinite linear;
-  text-align: center;
-
-}
-
-
-h3 {
-  --color-one: #002C54;
-  --color-two: #002C54;
-  --stretch-multiplier: 5;
-  font-size: clamp(1rem, 3vmin, 6rem);
-  font-family: 'Poppins', sans-serif;
-
-  display: grid;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
-  color: transparent;
-  background: linear-gradient(90deg, var(--color-one), var(--color-two));
-  background-clip: text;
-  -webkit-background-clip: text;
-  animation: stretch var(--stretch-multiplier)s infinite linear;
-  text-align: center;
-
-}
 
 
 
