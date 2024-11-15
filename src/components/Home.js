@@ -84,13 +84,13 @@ function Home() {
         <span>0</span>
     </a>
 
-    <a aria-label='0b1000' class='h-button' data-text='Chatbot'>
+    <a aria-label='0b0101' class='h-button' data-text='Chatbot'>
         <span>0</span>
         <span>b</span>
+        <span>0</span>
         <span>1</span>
         <span>0</span>
-        <span>0</span>
-        <span>0</span>
+        <span>1</span>
     </a>
 </div>
 
