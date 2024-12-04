@@ -17,3 +17,27 @@ Chatbot -> ( )
 Colour codes
 
 /* Hex codes: #002C54, #C5001A, #FDF6F6 */
+
+
+
+
+
+#region About me
+
+I am Hashika chathubhashaka. Undergraduate from UOM ENTC dep. 
+
+I am interseting in .....
+
+experience 
+
+    Intern 
+
+    Undergraduate
+
+
+Tech Stack 
+
+    
+
+
+#endregion 

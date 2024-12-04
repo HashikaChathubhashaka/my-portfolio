@@ -248,7 +248,7 @@ body {
 
 /* #region Headings */
 
-h1 {
+.h1-1 {
   --color-one: #002C54;
   --color-two: #002C54;
   --stretch-multiplier: 5;
@@ -270,7 +270,7 @@ h1 {
 }
 
 
-h3 {
+.h3-1 {
   --color-one: #002C54;
   --color-two: #002C54;
   --stretch-multiplier: 5;

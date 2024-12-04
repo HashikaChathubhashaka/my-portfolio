@@ -2,9 +2,9 @@ import React from 'react';
 import { Routes, Route, useLocation, Link } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import HomeApp from './components/Home';
-import Aboutme from './components/aboutme';
-import Project from './components/project';
-import Contact from './components/contact';
+import Aboutme from './components/About';
+import Project from './components/projects';
+import Contact from './components/Contact';
 import Chatbot from './components/chatbot';
 import './App.css';
 
@@ -33,6 +33,9 @@ function App() {
         </a>
       </div>
 
+
+
+
       <TransitionGroup>
         <CSSTransition
           key={location.key}
@@ -41,7 +44,7 @@ function App() {
         >
           <Routes location={location}>
             <Route path="/aboutme" element={<Aboutme/>} />
-            <Route path="/project" element={<Project />} />
+            <Route path="/project" element={< Project />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/chatbot" element={<Chatbot />} />
           </Routes>

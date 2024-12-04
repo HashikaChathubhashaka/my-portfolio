@@ -42,56 +42,93 @@ function Home() {
     }
   };
 
+  const handleClickAbout = () => {
+    navigate('/aboutme');
+  };
+
+  const handleClickProjects = () => {
+    navigate('/project');
+  };
+
+  const handleClickContact = () => {
+    navigate('/contact');
+  };
+
   return (
     
     <div>
             <div>
-        <h1>
+        <h1 className="h1-1">
           <span>Hashika</span>
           <span>Chathubhashaka</span>
         </h1>
-        <h3>Electronic & Robotic Developer</h3>
+        <h3 className='h3-1'>Electronic & Robotic Developer</h3>
       </div>
 
 
 <div>
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
-    <a aria-label='0b0011' class='h-button' data-text='About Me'>
-        <span>0</span>
-        <span>b</span>
-        <span>0</span>
+      <a 
+        aria-label="0b0011" 
+        className="h-button" 
+        data-text="About"
+        onClick={handleClickAbout}
+        style={{ cursor: 'pointer' }} // Optional to show pointer on hover
+      >
+
+        <span>M</span>
+        <span> </span>
+        <span>E</span>
+        {/* <span>0</span>
         <span>0</span>
         <span>1</span>
-        <span>1</span>
+        <span>1</span> */}
     </a>
     
-    <a aria-label='0b1010' class='h-button' data-text='Projects'>
-        <span>0</span>
+    <a aria-label='0b1010' class='h-button' data-text='Projects'  onClick={handleClickProjects} style={{ cursor: 'pointer' }}>
+
+        <span>H</span>
+        <span> </span>   
+        <span>U</span>
+        <span> </span> 
+        <span>B</span>
+        <span> </span> 
+
+        {/* <span>0</span>
         <span>b</span>
         <span>1</span>
         <span>0</span>
         <span>1</span>
-        <span>0</span>
+        <span>0</span> */}
     </a>
 
-    <a aria-label='0b0010' class='h-button' data-text='Contact'>
+
+    <a aria-label='0b0101' class='h-button' data-text='Chatbot'  style={{ cursor: 'pointer' }} >
         <span>0</span>
         <span>b</span>
         <span>0</span>
-        <span>0</span>
         <span>1</span>
         <span>0</span>
+        <span>1</span>
     </a>
 
-    <a aria-label='0b0101' class='h-button' data-text='Chatbot'>
-        <span>0</span>
+    <a aria-label='0b0010' class='h-button' data-text='Contact'  onClick={handleClickContact} style={{ cursor: 'pointer' }} >
+
+        <span>M</span>
+        <span> </span>
+        <span>E</span>       
+        
+        
+        {/* <span>0</span>
         <span>b</span>
         <span>0</span>
-        <span>1</span>
         <span>0</span>
         <span>1</span>
+        <span>0</span> */}
     </a>
+
+
 </div>
 
 

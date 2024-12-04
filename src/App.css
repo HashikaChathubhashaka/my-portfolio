@@ -84,10 +84,6 @@ html {
 /* header */
 
 
-
-
-
-
 .social-buttons {
   position: fixed;
   left: 20px;
@@ -119,3 +115,6 @@ html {
 .social-button--linkedin { background-color: #0077b5; }
 .social-button--github { background-color: #333; }
 .social-button--mail { background-color: #d44638; }
+
+
+
