@@ -8,7 +8,7 @@ export function About() {
       <div className="mx-auto max-w-[1920px] px-6 sm:px-8 lg:px-12">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            About Me
+            WHO AM I ?
           </h1>
           <p className="mt-4 text-lg text-gray-600">
             Passionate developer crafting exceptional digital experiences

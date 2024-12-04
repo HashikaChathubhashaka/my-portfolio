@@ -2,7 +2,7 @@
 /* background colour change */
 
 body {
-  background-color: #FDF6F6;
+  background-color: #ffffff;
 }
 
 
@@ -15,7 +15,7 @@ body {
     /*
     SIZE OF SWITCH
     ==============
-    All sizes are in em - therefore
+    All sizes are inem - therefore
     changing the font-size here
     will change the size of the switch.
     See .rocker-small below as example.
@@ -258,12 +258,12 @@ body {
   display: grid;
   line-height: 1;
   margin: 0;
-  margin-top: 100px;
+  margin-top: 200px;
   padding: 0;
-  color: transparent;
-  background: linear-gradient(90deg, var(--color-one), var(--color-two));
+  /* color: transparent;
+  background: linear-gradient(90deg, var(--color-one), var(--color-two));*/
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; 
   animation: stretch var(--stretch-multiplier)s infinite linear;
   text-align: center;
 
@@ -281,8 +281,8 @@ body {
   line-height: 1;
   margin: 0;
   padding: 0;
-  color: transparent;
-  background: linear-gradient(90deg, var(--color-one), var(--color-two));
+  /* color: transparent;
+  background: linear-gradient(90deg, var(--color-one), var(--color-two)); */
   background-clip: text;
   -webkit-background-clip: text;
   animation: stretch var(--stretch-multiplier)s infinite linear;

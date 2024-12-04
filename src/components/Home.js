@@ -135,7 +135,8 @@ function Home() {
 </div>
   
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>      
-      <div style={{ textAlign: 'center', padding: '20px' }}>
+
+      {/* <div style={{ textAlign: 'center', padding: '20px' }}>
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
           {buttons.map((value, index) => (
@@ -151,6 +152,7 @@ function Home() {
             </label>
           ))}
         </div>
+        
         <button className='button-59'
           onClick={handleBigButtonClick}
           style={{ marginTop: '20px', padding: '15px' }}
@@ -158,7 +160,8 @@ function Home() {
           Lets Go 
         </button>
         <h2 className="h2-1">{message}</h2>
-      </div>
+      </div> */}
+      
     </div>
     </div>
   );

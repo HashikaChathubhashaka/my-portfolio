@@ -2,37 +2,26 @@ import React from 'react';
 import { Briefcase } from 'lucide-react';
 
 const experiences = [
+  // {
+  //   company: 'Tech Solutions Inc.',
+  //   position: 'Senior Full Stack Developer',
+  //   period: '2021 - Present',
+  //   description: 'Led development of enterprise-level applications, mentored junior developers, and implemented CI/CD pipelines.',
+  //   achievements: [
+  //     'Reduced application load time by 40%',
+  //     'Implemented microservices architecture',
+  //     'Led a team of 5 developers'
+  //   ]
+  // },
   {
-    company: 'Tech Solutions Inc.',
-    position: 'Senior Full Stack Developer',
-    period: '2021 - Present',
-    description: 'Led development of enterprise-level applications, mentored junior developers, and implemented CI/CD pipelines.',
+    company: 'Arimac Lanka (Private) Limited.',
+    position: 'Intern Electronics Engineer',
+    period: 'Nov 2023 - May 2024',
+    description: 'Developed indoor navigation robot using ROS2.',
     achievements: [
-      'Reduced application load time by 40%',
-      'Implemented microservices architecture',
-      'Led a team of 5 developers'
-    ]
-  },
-  {
-    company: 'Digital Innovations Ltd.',
-    position: 'Full Stack Developer',
-    period: '2019 - 2021',
-    description: 'Developed and maintained multiple client projects using React and Node.js.',
-    achievements: [
-      'Built responsive web applications',
-      'Integrated payment gateways',
-      'Optimized database queries'
-    ]
-  },
-  {
-    company: 'StartUp Hub',
-    position: 'Junior Developer',
-    period: '2018 - 2019',
-    description: 'Worked on frontend development using React and collaborated with the design team.',
-    achievements: [
-      'Developed reusable component library',
-      'Improved UI/UX of existing applications',
-      'Participated in code reviews'
+      'Creating a simulation for an indoor navigation robot with LiDAR, IMU, and depth camera using Gazebo.',
+      'Developing a differential-drive physical robot that can navigate in indoor maps using the simulation implementation as a reference.',
+      'Creating a simulation for a robot to follow a human in an indoor map using Gazebo.'
     ]
   }
 ];

@@ -49,6 +49,8 @@ function App() {
         </div>
       </nav>
 
+      <div className="nav-spacer"></div>
+
       {/* Main Content */}
       <div className="content">
         <TransitionGroup>
