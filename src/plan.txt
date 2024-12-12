@@ -1,6 +1,8 @@
 TOP -> link to github/ linkdin -> done
 
 
+EmailJS -> use to auto send emails
+
 
 
 Projects
@@ -17,9 +19,6 @@ Chatbot -> ( )
 Colour codes
 
 /* Hex codes: #002C54, #C5001A, #FDF6F6 */
-
-
-
 
 
 #region About me

@@ -1,5 +1,5 @@
 body {
-  background-color: #FDF6F6;
+  background-color: #ffffff;
 }
 
 /* use in switches design */
@@ -7,6 +7,10 @@ html {
   box-sizing: border-box;
 
 }
+
+
+
+
 
 *, *:before, *:after {
   box-sizing: inherit;

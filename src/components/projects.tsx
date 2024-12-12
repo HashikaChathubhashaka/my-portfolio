@@ -3,7 +3,7 @@ import { ProjectsGrid } from './project/ProjectsGrid';
 import './tail.css';
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className=" bg-gray-50">
 
       <ProjectsGrid />
     </div>

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 import './Home.css'
 import './Home.scss'
+
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
@@ -54,12 +55,19 @@ function Home() {
     navigate('/contact');
   };
 
+
+  const handleClickChatbot = () => {
+    navigate('/chatbot');
+  };
+
   return (
     
     <div>
             <div>
-        <h1 className="h1-1">
+        <h1 className="h1-0">
           <span>Hashika</span>
+          </h1>
+          <h1 className="h1-1">
           <span>Chathubhashaka</span>
         </h1>
         <h3 className='h3-1'>Electronic & Robotic Developer</h3>
@@ -80,10 +88,6 @@ function Home() {
         <span>M</span>
         <span> </span>
         <span>E</span>
-        {/* <span>0</span>
-        <span>0</span>
-        <span>1</span>
-        <span>1</span> */}
     </a>
     
     <a aria-label='0b1010' class='h-button' data-text='Projects'  onClick={handleClickProjects} style={{ cursor: 'pointer' }}>
@@ -94,17 +98,10 @@ function Home() {
         <span> </span> 
         <span>B</span>
         <span> </span> 
-
-        {/* <span>0</span>
-        <span>b</span>
-        <span>1</span>
-        <span>0</span>
-        <span>1</span>
-        <span>0</span> */}
     </a>
 
 
-    <a aria-label='0b0101' class='h-button' data-text='Chatbot'  style={{ cursor: 'pointer' }} >
+    <a aria-label='0b0101' class='h-button' data-text='Chatbot' onClick={handleClickChatbot}  style={{ cursor: 'pointer' }} >
         <span>0</span>
         <span>b</span>
         <span>0</span>
@@ -118,14 +115,7 @@ function Home() {
         <span>M</span>
         <span> </span>
         <span>E</span>       
-        
-        
-        {/* <span>0</span>
-        <span>b</span>
-        <span>0</span>
-        <span>0</span>
-        <span>1</span>
-        <span>0</span> */}
+
     </a>
 
 
@@ -134,33 +124,27 @@ function Home() {
 
 </div>
   
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>      
-      <div style={{ textAlign: 'center', padding: '20px' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '8vh' }}>
 
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
-          {buttons.map((value, index) => (
-            <label key={index} className="rocker rocker-small">
-              <input
-                type="checkbox"
-                checked={value === 1}
-                onChange={() => toggleButton(index)}
-                style={{ display: 'none' }}
-              />
-              <span className="switch-left non-selectable">1</span> 
-              <span className="switch-right non-selectable">0</span>
-            </label>
-          ))}
-        </div>
-        <button className='button-59'
-          onClick={handleBigButtonClick}
-          style={{ marginTop: '20px', padding: '15px' }}
-        >
-          Lets Go 
-        </button>
-        <h2 className="h2-1">{message}</h2>
-      </div>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <div style={{ maxWidth: '900px', textAlign: 'center', padding: '2px' }}>
+    <h2 className='h3-2'>
+      Embedded Systems | Robotics | AI | Machine Learning
+    </h2>
+  </div>
+</div>
+
+
+
+    <div style={{ marginTop: '40px' }}>
+      <a className='a1' href="#" style={{ textAlign: 'center' }}>My Resume</a>
     </div>
+  </div>
+
+
     </div>
+
+    
   );
 }
 

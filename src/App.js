@@ -7,61 +7,68 @@ import Project from './components/projects';
 import Contact from './components/Contact';
 import Chatbot from './components/chatbot';
 import './App.css';
+import './nav.css';
+import Footer from './footer';
 
 function App() {
   const location = useLocation();
 
   return (
-    <div>
-      {/* Home Button - Only shows if not on the home page */}
-      {location.pathname !== "/" && (
-        <div className="home-button">
-          <Link to="/" className="home-link">Home</Link>
+    <div id="root">
+      {/* Navigation Panel */}
+      <nav>
+        <div className="wrapper">
+          <div className="logo">
+            <Link to="/">HasHikA.</Link>
+          </div>
+          <input type="radio" name="slider" id="menu-btn" />
+          <input type="radio" name="slider" id="close-btn" />
+          
+          <ul className="nav-links">
+            <label htmlFor="close-btn" className="btn close-btn">
+              <i className="fas fa-times"></i>
+            </label>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/aboutme">About</Link>
+            </li>
+            <li>
+              <Link to="/project">Projects</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+          
+          <label htmlFor="menu-btn" className="btn menu-btn">
+            <i className="fas fa-bars"></i>
+          </label>
         </div>
-      )}
+      </nav>
 
-      {/* Social Media Icons */}
-      <div className="social-buttons">
-        <a href="#" className="social-button social-button--linkedin" aria-label="LinkedIn">
-          <i className="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/HashikaChathubhashaka" className="social-button social-button--github" aria-label="GitHub" target='_blank' rel="noopener noreferrer">
-          <i className="fab fa-github"></i>
-        </a>
-        <a href="#" className="social-button social-button--mail" aria-label="Mail">
-          <i className="fa fa-envelope"></i>
-        </a>
+      <div className="nav-spacer"></div>
+
+      {/* Main Content */}
+      <div className="content">
+        <TransitionGroup>
+          <CSSTransition key={location.key} timeout={500} classNames="slide-up">
+            <Routes location={location}>
+              <Route path="/aboutme" element={<Aboutme />} />
+              <Route path="/project" element={<Project />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/chatbot" element={<Chatbot />} />
+              <Route path="/" element={<HomeApp />} />
+            </Routes>
+          </CSSTransition>
+        </TransitionGroup>
       </div>
 
-
-
-
-      <TransitionGroup>
-        <CSSTransition
-          key={location.key}
-          timeout={500}
-          classNames="slide-up"
-        >
-          <Routes location={location}>
-            <Route path="/aboutme" element={<Aboutme/>} />
-            <Route path="/project" element={< Project />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/chatbot" element={<Chatbot />} />
-          </Routes>
-        </CSSTransition>
-      </TransitionGroup>
-
-      <TransitionGroup>
-        <CSSTransition
-          key={location.key}
-          timeout={500}
-          classNames="slide-down"
-        >
-          <Routes location={location}>
-            <Route path="/" element={<HomeApp />} />
-          </Routes>
-        </CSSTransition>
-      </TransitionGroup>
+      {/* Footer */}
+      <footer className="footer">
+        &copy; 2024 HasHikA. All Rights Reserved.
+      </footer>
     </div>
   );
 }

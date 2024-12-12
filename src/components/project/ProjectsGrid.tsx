@@ -10,12 +10,12 @@ export function ProjectsGrid() {
     : projects.filter(p => p.featured);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-6 py-16 sm:px-6 lg:px-8">
       <div className="flex flex-col items-center">
-        <h2 className="text-4xl font-bold text-gray-900">My Projects</h2>
-        <p className="mt-4 text-center text-lg text-gray-600">
-          Here are some of the projects I've worked on. Each one represents a unique challenge and learning experience.
-        </p>
+      <h2 
+          className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mt-12">
+          #PROJECTS
+        </h2>
         
         <div className="mt-8 flex gap-4">
           <button
@@ -39,6 +39,8 @@ export function ProjectsGrid() {
             Featured
           </button>
         </div>
+
+        
       </div>
 
       <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

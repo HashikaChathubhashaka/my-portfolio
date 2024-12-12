@@ -18,10 +18,10 @@ export function ContactForm() {
 
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_yo0x8rm', // Replace with your EmailJS service ID
+        'template_9jwa2s2', // Replace with your EmailJS template ID
         formData,
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'o2TmHGg7KUB5IE5KH' // Replace with your EmailJS public key
       );
       toast.success('Message sent successfully!');
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -94,7 +94,7 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="inline-flex w-full items-center justify-center rounded-md bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm transition-colors hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50"
+          className="inline-flex w-full items-center justify-center rounded-md bg-gray-600 px-6 py-3 text-base font-medium text-white shadow-sm transition-colors hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50"
         >
           {isSubmitting ? (
             'Sending...'
