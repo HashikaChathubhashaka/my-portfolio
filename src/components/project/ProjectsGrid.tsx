@@ -14,11 +14,8 @@ export function ProjectsGrid() {
       <div className="flex flex-col items-center">
       <h2 
           className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mt-12">
-          PROJECTS
+          #PROJECTS
         </h2>
-        <p className="mt-4 text-center text-lg text-gray-600">
-          Here are some of the projects I've worked on.
-        </p>
         
         <div className="mt-8 flex gap-4">
           <button

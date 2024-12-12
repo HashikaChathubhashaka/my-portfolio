@@ -8,12 +8,13 @@ import Contact from './components/Contact';
 import Chatbot from './components/chatbot';
 import './App.css';
 import './nav.css';
+import Footer from './footer';
 
 function App() {
   const location = useLocation();
 
   return (
-    <div>
+    <div id="root">
       {/* Navigation Panel */}
       <nav>
         <div className="wrapper">
@@ -39,8 +40,6 @@ function App() {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-
-
           </ul>
           
           <label htmlFor="menu-btn" className="btn menu-btn">
@@ -65,6 +64,11 @@ function App() {
           </CSSTransition>
         </TransitionGroup>
       </div>
+
+      {/* Footer */}
+      <footer className="footer">
+        &copy; 2024 HasHikA. All Rights Reserved.
+      </footer>
     </div>
   );
 }

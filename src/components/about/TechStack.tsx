@@ -10,11 +10,11 @@ import {
 } from 'lucide-react';
 
 const technologies = {
-  'PCB': {
+  'PCB Design': {
     icon: <CircuitBoard className="h-6 w-6" />,
     skills: ['Altium', 'Proteus']
   },
-  '3D CAD': {
+  '3D CAD Design': {
     icon: <Box className="h-6 w-6" />,
     skills: ['SolidWorks']
   },
@@ -24,7 +24,7 @@ const technologies = {
   },
   'Robotics': {
     icon: <Bot className="h-6 w-6" />,
-    skills: ['ROS2-Humble']
+    skills: ['ROS2-Humble' , 'webots']
   },
   'Web Technologies': {
     icon: <Globe className="h-6 w-6" />,
