@@ -9,7 +9,7 @@ $borderColor: #000000;
 // sizes
 $avatarSize: 350px;
 $borderWidth: 5px;
-$paddingSize: 0px;
+$paddingSize: 50px;
 
 // some calculations
 $translateValue: -$paddingSize - $borderWidth;
@@ -28,7 +28,7 @@ body {
  */
 
 .avatar {
-	border: $borderWidth solid $bgColor;
+	border: $borderWidth ;
 	box-sizing: border-box;
 	height: $avatarSize;
 	border-radius: 50%;
@@ -43,16 +43,16 @@ body {
 		border-radius: 30%;
 	}
 
-	&::before,
-	&::after {
+	&::before
+	{
 		border: $borderWidth solid transparent;
 		border-radius: 30%;
 		border-top: $borderWidth solid $borderColor;
 		content: "";
 		display: block;
-		height: calc(100% + 10px);
+		height: calc(100% + 30px);
 		left: 50%;
-		width: calc(100% + 10px);
+		width: calc(100% + 30px);
 		position: absolute;
 	}
 
@@ -61,8 +61,5 @@ body {
 		transform: translateX(-50%);
 	}
 
-	&::after {
-		bottom: 9 * $borderWidth;
-		transform: translateX(-50%) rotate(180deg);
-	}
+
 }
