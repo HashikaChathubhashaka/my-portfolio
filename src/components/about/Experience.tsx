@@ -2,35 +2,29 @@ import React from 'react';
 import { Briefcase } from 'lucide-react';
 
 const experiences = [
-  // {
-  //   company: 'Tech Solutions Inc.',
-  //   position: 'Senior Full Stack Developer',
-  //   period: '2021 - Present',
-  //   description: 'Led development of enterprise-level applications, mentored junior developers, and implemented CI/CD pipelines.',
-  //   achievements: [
-  //     'Reduced application load time by 40%',
-  //     'Implemented microservices architecture',
-  //     'Led a team of 5 developers'
-  //   ]
-  // },
+
   {
     company: 'Arimac Lanka (Private) Limited.',
-    position: 'Intern Electronics Engineer',
+    position: 'Intern Robotics Engineer',
     period: 'Nov 2023 - May 2024',
-    description: 'Developed indoor navigation robot using ROS2.',
-    achievements: [
-      'Creating a simulation for an indoor navigation robot with LiDAR, IMU, and depth camera using Gazebo.',
-      'Developing a differential-drive physical robot that can navigate in indoor maps using the simulation implementation as a reference.',
-      'Creating a simulation for a robot to follow a human in an indoor map using Gazebo.'
-    ]
-  }
+    description: 'Developed indoor navigation robot using ROS2.'
+  },
+
+  {
+    company: 'University of Moratuwa',
+    position: 'Electronic and Telecommunication Engineering Undergraduate',
+    period: 'Aug 2020 - March 2025',
+    description: 'Developed indoor navigation robot using ROS2.'
+  },
+
+
 ];
 
 export function Experience() {
   return (
     <div className="space-y-8">
       <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center ">
-        Professional Experience
+      {/* __PROFESSIONAL EXPERIENCE__ */}
       </h2>
 
       <div className="space-y-8">
@@ -48,16 +42,8 @@ export function Experience() {
                 <p className="text-indigo-600">{exp.company}</p>
                 <p className="text-sm text-gray-500">{exp.period}</p>
               </div>
-            </div>
-            <p className="mt-4 text-gray-600">{exp.description}</p>
-            <ul className="mt-4 space-y-2">
-              {exp.achievements.map((achievement, i) => (
-                <li key={i} className="flex items-center space-x-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-indigo-600"></span>
-                  <span className="text-gray-600">{achievement}</span>
-                </li>
-              ))}
-            </ul>
+            </div>        
+
           </div>
         ))}
       </div>

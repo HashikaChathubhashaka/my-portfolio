@@ -78,7 +78,7 @@ function Home() {
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
       <a 
-        aria-label="0b0011" 
+        aria-label="Me" 
         className="h-button" 
         data-text="About"
         onClick={handleClickAbout}
@@ -90,7 +90,7 @@ function Home() {
         <span>E</span>
     </a>
     
-    <a aria-label='0b1010' class='h-button' data-text='Projects'  onClick={handleClickProjects} style={{ cursor: 'pointer' }}>
+    <a aria-label='Hub' class='h-button' data-text='Projects'  onClick={handleClickProjects} style={{ cursor: 'pointer' }}>
 
         <span>H</span>
         <span> </span>   
@@ -101,16 +101,16 @@ function Home() {
     </a>
 
 
-    <a aria-label='0b0101' class='h-button' data-text='Chatbot' onClick={handleClickChatbot}  style={{ cursor: 'pointer' }} >
-        <span>0</span>
-        <span>b</span>
-        <span>0</span>
-        <span>1</span>
-        <span>0</span>
-        <span>1</span>
+    <a aria-label='Bot' class='h-button' data-text='Chat' onClick={handleClickChatbot}  style={{ cursor: 'pointer' }} >
+        <span>B</span>
+        <span> </span>
+        <span>O</span>
+        <span> </span>
+        <span>T</span>
+
     </a>
 
-    <a aria-label='0b0010' class='h-button' data-text='Contact'  onClick={handleClickContact} style={{ cursor: 'pointer' }} >
+    <a aria-label='Me' class='h-button' data-text='Contact'  onClick={handleClickContact} style={{ cursor: 'pointer' }} >
 
         <span>M</span>
         <span> </span>
