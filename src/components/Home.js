@@ -124,7 +124,7 @@ function Home() {
 
 </div>
   
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '8vh' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '3vh' }}>
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <div style={{ maxWidth: '900px', textAlign: 'center', padding: '2px' }}>
@@ -134,12 +134,15 @@ function Home() {
   </div>
 </div>
 
-
-
-    <div style={{ marginTop: '40px' }}>
+<div style={{ marginTop: '40px' }}>
       <a className='a1' href="#" style={{ textAlign: 'center' }}>My Resume</a>
     </div>
   </div>
+
+
+
+
+
 
 
     </div>
