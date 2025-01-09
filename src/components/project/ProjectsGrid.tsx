@@ -12,10 +12,10 @@ export function ProjectsGrid() {
   return (
     <div className="mx-auto max-w-7xl px-6 py-16 sm:px-6 lg:px-8">
       <div className="flex flex-col items-center">
-      <h2 
+      {/* <h2 
           className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mt-12">
           #PROJECTS
-        </h2>
+        </h2> */}
         
         <div className="mt-8 flex gap-4">
           <button

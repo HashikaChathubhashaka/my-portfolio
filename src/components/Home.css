@@ -254,7 +254,7 @@ body {
   --color-one: #002C54;
   --color-two: #002C54;
   --stretch-multiplier: 5;
-  font-size: clamp(4rem, 12vmin, 30rem);
+  font-size: clamp(4rem, 14vmin, 30rem);
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   display: grid;
@@ -276,7 +276,7 @@ body {
   --color-one: #002C54;
   --color-two: #002C54;
   --stretch-multiplier: 5;
-  font-size: clamp(3rem, 10vmin, 28rem);
+  font-size: clamp(3rem, 11vmin, 28rem);
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   display: grid;
@@ -364,4 +364,7 @@ body {
   transform-origin: left;
   transform: scaleX(1);
 }
+
+
+
 

@@ -68,6 +68,22 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         &copy; 2024 HasHikA. All Rights Reserved.
+
+        <div className="social-links-row">
+
+
+  <a href="https://linkedin.com/in/hashika-chathubhashaka" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-linkedin-in"></i>
+  </a>
+
+  <a href="https://github.com/HashikaChathubhashaka" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-github"></i>
+  </a>
+
+  <a href="https://discord.com/users/hashika-chathubhashaka" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-discord"></i>
+  </a>
+</div>
       </footer>
     </div>
   );

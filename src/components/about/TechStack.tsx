@@ -1,77 +1,245 @@
 import React from 'react';
-import { 
-  CircuitBoard, 
-  Box, 
-  Brain, 
-  Bot, 
-  Globe, 
-  Layout, 
-  Code2 
-} from 'lucide-react';
+import "./Tech.css";
+import cppImage from './imgs/cpp.png';
+import pythonImage from './imgs/python.png';
 
-const technologies = {
-  'PCB Design': {
-    icon: <CircuitBoard className="h-6 w-6" />,
-    skills: ['Altium', 'Proteus']
-  },
-  '3D CAD Design': {
-    icon: <Box className="h-6 w-6" />,
-    skills: ['SolidWorks']
-  },
-  'Machine Learning': {
-    icon: <Brain className="h-6 w-6" />,
-    skills: ['TensorFlow', 'PyTorch']
-  },
-  'Robotics': {
-    icon: <Bot className="h-6 w-6" />,
-    skills: ['ROS2-Humble' , 'webots']
-  },
-  'Web Technologies': {
-    icon: <Globe className="h-6 w-6" />,
-    skills: ['REST API']
-  },
-  'Frontend': {
-    icon: <Layout className="h-6 w-6" />,
-    skills: ['ReactJS']
-  },
-  'Tools & Others': {
-    icon: <Code2 className="h-6 w-6" />,
-    skills: ['Git', 'Docker']
-  }
-};
+import ros2Image from './imgs/ros2.png';  
+import WebotImage from './imgs/webots.png';
+
+import SolidworkImage from './imgs/solidworks.png';
+import ProteusImage from './imgs/Proteus.png';
+import AltiumImage from './imgs/altium.png';
+import MatlabImage from './imgs/matlab.png';
+
+import reactImage from './imgs/react.png';
+
+import TensorImage from './imgs/tensor.png';
+import pytorchImage from './imgs/pytorch.png';
+
+import gitImage from './imgs/git.png';
+import DockerImage from './imgs/docker.png';
 
 export function TechStack() {
   return (
-    <div className="flex h-full flex-col">
-      <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900">
-        Tech Stack
-      </h2>
 
-      <div className="mt-8 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2">
-        {Object.entries(technologies).map(([category, { icon, skills }]) => (
-          <div
-            key={category}
-            className="rounded-xl bg-white p-4 shadow-lg transition-all hover:shadow-xl"
-          >
-            <div className="flex items-center space-x-3">
-              <div className="rounded-lg bg-indigo-600 p-2.5 text-white">
-                {icon}
+    <div>
+
+    <h2 className="text-4xl font-bold tracking-tight text-gray-900 text-center "> TECH STACK </h2>
+    <div className="nav-bar">
+    <div className="flex h-full flex-col">
+          <ul className="nav-list" >
+
+
+          <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={AltiumImage}
+                  loading="eager"
+                  alt="Altium"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Altium</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900">{category}</h3>
-            </div>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {skills.map((skill) => (
-                <span
-                  key={skill}
-                  className="rounded-full bg-gray-50 px-3 py-1 text-sm text-gray-700 shadow-sm"
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+            </li>
+
+
+
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={SolidworkImage}
+                  loading="eager"
+                  alt="Solidworks"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Solidworks</div>
+              </div>
+            </li>
+            
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={MatlabImage}
+                  loading="eager"
+                  alt="Matlab"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Matlab</div>
+              </div>
+            </li>
+
+
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={ros2Image}
+                  loading="eager"
+                  alt="ROS 2"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>ROS 2</div>
+              </div>
+            </li>
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={WebotImage}
+                  loading="eager"
+                  alt="webots"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Webots</div>
+              </div>
+            </li>
+
+          </ul>
+
     </div>
+    </div>
+
+
+    <div className="nav-bar">
+    <div className="flex h-full flex-col">
+          <ul className="nav-list" >
+
+          <li className="nav-item">
+              <a href="#" className="nav-item__link" >
+                <img
+                  src={cppImage}
+                  loading="eager"
+                  alt="c++"
+                  className="image"
+                />
+              </a>
+              <div  className="nav-item__tooltip">
+                <div>C++</div>
+              </div>
+            </li>
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={pythonImage}
+                  loading="eager"
+                  alt="python"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Python</div>
+              </div>
+            </li>
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={reactImage}
+                  loading="eager"
+                  alt="React JS"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>React JS</div>
+              </div>
+            </li>
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={pytorchImage}
+                  loading="eager"
+                  alt="pytorch"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Pytorch</div>
+              </div>
+            </li>
+
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={TensorImage}
+                  loading="eager"
+                  alt="Tensorflow"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Tensorflow</div>
+              </div>
+            </li>
+
+          </ul>
+
+
+
+    </div>
+    </div>
+
+    <div className="nav-bar">
+    <div className="flex h-full flex-col">
+          <ul className="nav-list" >
+
+          <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={gitImage}
+                  loading="eager"
+                  alt="Git"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Git</div>
+              </div>
+            </li>
+
+            <li className="nav-item">
+              <a href="#" className="nav-item__link">
+                <img
+                  src={DockerImage}
+                  loading="eager"
+                  alt="Docker"
+                  className="image"
+                />
+              </a>
+              <div className="nav-item__tooltip">
+                <div>Docker</div>
+              </div>
+            </li>
+
+          </ul>
+
+
+
+    </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
   );
 }
