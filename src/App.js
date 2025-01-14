@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div id="root">
+      
       {/* Navigation Panel */}
       <nav>
         <div className="wrapper">
@@ -51,7 +52,7 @@ function App() {
       <div className="nav-spacer"></div>
 
       {/* Main Content */}
-      <div className="content">
+      <div className="content background">
         <TransitionGroup>
           <CSSTransition key={location.key} timeout={500} classNames="slide-up">
             <Routes location={location}>

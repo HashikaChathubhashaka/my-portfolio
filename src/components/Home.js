@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import './Home.css'
 import './Home.scss'
-
+import './animatedfont.css'
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
@@ -62,13 +62,19 @@ function Home() {
 
   return (
     
-    <div>
+    <div className='background'>
+      
             <div>
         <h1 className="h1-0">
-          <span>Hashika</span>
+          <span>Ha<h3 class="animate-charcter-0"> SHI</h3>ka</span>
           </h1>
+
+
+
+
+
           <h1 className="h1-1">
-          <span>Chathubhashaka</span>
+          <span>C<h3 class="animate-charcter-1"> HA</h3>thubhasha<h3 class="animate-charcter-1">KA</h3></span>
         </h1>
         <h3 className='h3-1'>Electronic & Robotic Developer</h3>
       </div>
@@ -129,12 +135,12 @@ function Home() {
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <div style={{ maxWidth: '900px', textAlign: 'center', padding: '2px' }}>
     <h2 className='h3-2'>
-      Embedded Systems | Robotics | AI | Machine Learning
+      Embedded Systems | Robotics | Machine Learning
     </h2>
   </div>
 </div>
 
-<div style={{ marginTop: '40px' }}>
+<div style={{ marginTop: '65px' }}>
       <a className='a1' href="#" style={{ textAlign: 'center' }}>My Resume</a>
     </div>
   </div>

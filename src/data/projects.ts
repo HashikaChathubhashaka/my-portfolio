@@ -67,7 +67,7 @@ export const projects: Project[] = [
     tags: ['ESP32', 'C++'],
     liveUrl: '',
     githubUrl: 'https://github.com/HashikaChathubhashaka/Line-Rider',
-    featured: true
+    featured: false
   },
 
   // {

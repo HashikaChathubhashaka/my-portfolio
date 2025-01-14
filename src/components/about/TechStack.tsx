@@ -24,7 +24,7 @@ export function TechStack() {
 
     <div>
 
-    <h2 className="text-4xl font-bold tracking-tight text-gray-900 text-center "> TECH STACK </h2>
+    {/* <h2 className="text-4xl font-bold tracking-tight text-gray-900 text-center "> TECH STACK </h2> */}
     <div className="nav-bar">
     <div className="flex h-full flex-col">
           <ul className="nav-list" >
@@ -158,7 +158,7 @@ export function TechStack() {
               </div>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="#" className="nav-item__link">
                 <img
                   src={pytorchImage}
@@ -170,7 +170,7 @@ export function TechStack() {
               <div className="nav-item__tooltip">
                 <div>Pytorch</div>
               </div>
-            </li>
+            </li> */}
 
 
             <li className="nav-item">

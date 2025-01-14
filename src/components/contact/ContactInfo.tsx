@@ -8,7 +8,7 @@ export function ContactInfo() {
         <h2 className="text-2xl font-bold text-gray-900 text-center">Contact Information</h2>
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
-            <div className="rounded-full bg-indigo-100 p-3 text-indigo-600">
+            <div className="rounded-full bg-pink-100 p-3 text-pink-600">
               <MapPin className="h-6 w-6" />
             </div>
             <div>
@@ -18,7 +18,7 @@ export function ContactInfo() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <div className="rounded-full bg-indigo-100 p-3 text-indigo-600">
+            <div className="rounded-full bg-pink-100 p-3 text-pink-600">
               <Mail className="h-6 w-6" />
             </div>
             <div>
