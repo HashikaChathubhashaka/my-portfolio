@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard';
 import { projects } from '../../data/projects';
 
 export function ProjectsGrid() {
-  const [filter, setFilter] = useState<'all' | 'featured'>('all');
+  const [filter, setFilter] = useState<'all' | 'featured'>('featured');
   
   const filteredProjects = filter === 'all' 
     ? projects 
@@ -18,26 +18,30 @@ export function ProjectsGrid() {
         </h2> */}
         
         <div className="mt-8 flex gap-4">
-          <button
-            onClick={() => setFilter('all')}
-            className={`rounded-full px-6 py-2 text-sm font-medium transition-colors ${
-              filter === 'all'
-                ? 'bg-gray-900 text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
-            All Projects
-          </button>
-          <button
+
+        <button
             onClick={() => setFilter('featured')}
             className={`rounded-full px-6 py-2 text-sm font-medium transition-colors ${
               filter === 'featured'
-                ? 'bg-gray-900 text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                ? 'bg-pink-900 text-white'
+                : 'bg-black-100 text-black-700 hover:bg-pink-200'
             }`}
           >
             Featured
           </button>
+
+
+          <button
+            onClick={() => setFilter('all')}
+            className={`rounded-full px-6 py-2 text-sm font-medium transition-colors ${
+              filter === 'all'
+                ? 'bg-pink-900 text-white'
+                : 'bg-black-100 text-black-700 hover:bg-pink-200'
+            }`}
+          >
+            All Projects
+          </button>
+
         </div>
 
         

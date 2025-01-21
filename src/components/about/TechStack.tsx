@@ -24,14 +24,14 @@ export function TechStack() {
 
     <div>
 
-    <h2 className="text-4xl font-bold tracking-tight text-gray-900 text-center "> TECH STACK </h2>
+    {/* <h2 className="text-4xl font-bold tracking-tight text-gray-900 text-center "> TECH STACK </h2> */}
     <div className="nav-bar">
     <div className="flex h-full flex-col">
           <ul className="nav-list" >
 
 
           <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={AltiumImage}
                   loading="eager"
@@ -48,7 +48,7 @@ export function TechStack() {
 
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={SolidworkImage}
                   loading="eager"
@@ -63,7 +63,7 @@ export function TechStack() {
             
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={MatlabImage}
                   loading="eager"
@@ -79,7 +79,7 @@ export function TechStack() {
 
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={ros2Image}
                   loading="eager"
@@ -93,7 +93,7 @@ export function TechStack() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={WebotImage}
                   loading="eager"
@@ -117,7 +117,7 @@ export function TechStack() {
           <ul className="nav-list" >
 
           <li className="nav-item">
-              <a href="#" className="nav-item__link" >
+              <a  className="nav-item__link" >
                 <img
                   src={cppImage}
                   loading="eager"
@@ -131,7 +131,7 @@ export function TechStack() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={pythonImage}
                   loading="eager"
@@ -145,7 +145,7 @@ export function TechStack() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={reactImage}
                   loading="eager"
@@ -158,7 +158,7 @@ export function TechStack() {
               </div>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="#" className="nav-item__link">
                 <img
                   src={pytorchImage}
@@ -170,11 +170,11 @@ export function TechStack() {
               <div className="nav-item__tooltip">
                 <div>Pytorch</div>
               </div>
-            </li>
+            </li> */}
 
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={TensorImage}
                   loading="eager"
@@ -199,7 +199,7 @@ export function TechStack() {
           <ul className="nav-list" >
 
           <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={gitImage}
                   loading="eager"
@@ -213,7 +213,7 @@ export function TechStack() {
             </li>
 
             <li className="nav-item">
-              <a href="#" className="nav-item__link">
+              <a  className="nav-item__link">
                 <img
                   src={DockerImage}
                   loading="eager"

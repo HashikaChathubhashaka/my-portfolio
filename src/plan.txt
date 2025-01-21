@@ -40,3 +40,9 @@ Tech Stack
 
 
 #endregion 
+
+
+
+
+for background effects 
+https://codepen.io/Sepion/pen/ZQJyeq

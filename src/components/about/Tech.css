@@ -5,7 +5,7 @@ body {
     background-color: var(--color-neutral-300);
     color: var(--color-dark);
     font-size: var(--size-font);
-    font-family: Arial, sans-serif; 
+    font-family: sans-serif; 
   }
 
   .nav-list {
@@ -22,10 +22,11 @@ body {
   .nav-item {
     justify-content: center;
     align-items: center;
-    width: 3.6em;
+    width: 4em;
     transition: width .5s cubic-bezier(.16, 1, .3, 1);
     display: flex;
     position: relative;
+
   }
   
   .nav-item.hover {
@@ -56,8 +57,13 @@ body {
   .image {
     object-fit: contain;
     width: 100%;
-    filter: grayscale(20%) contrast(30%);
+    filter: grayscale(10%) contrast(60%);
     transition: filter 0.3s ease;
+    /* put a background frame */
+    background-color: rgba(184, 102, 157, 0.171);
+    border-radius: 20%;
+    padding: 0.5em;
+
   }
 
     
@@ -88,11 +94,10 @@ body {
   }
 
 
-
 /* Media query for medium screens */
 @media (max-width: 1024px) {
   .nav-item {
-      width: 6.0em; /* Slightly larger icons for medium screens */
+      width: 7.0em; /* Slightly larger icons for medium screens */
   }
 
   .image {
@@ -112,7 +117,7 @@ body {
 /* Media query for small screens */
 @media (max-width: 768px) {
   .nav-item {
-      width: 6em; /* Minimum icon size */
+      width: 8em; /* Minimum icon size */
   }
   
   .image {
@@ -127,7 +132,7 @@ body {
 /* Media query for very small screens */
 @media (max-width: 480px) {
   .nav-item {
-      width: 8em; /* Slightly smaller icons */
+      width: 8.5em; /* Slightly smaller icons */
   }
   
   .image {

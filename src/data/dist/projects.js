@@ -5,6 +5,11 @@ var level_jpg_1 = require("./images/level.jpg"); // Adjust path as needed
 var aruco_navigation_jpeg_1 = require("./images/aruco navigation.jpeg"); // Adjust path as needed
 var dual_robot_jpeg_1 = require("./images/dual robot.jpeg"); // Adjust path as needed
 var MCQ_site_jpg_1 = require("./images/MCQ site.jpg"); // Adjust path as needed
+var GameProject_png_1 = require("./images/GameProject.png"); // Adjust path as needed
+var flowerExchanger_jpg_1 = require("./images/flowerExchanger.jpg"); // Adjust path as needed
+var arm_jpg_1 = require("./images/arm.jpg"); // Adjust path as needed
+var BrainTumor_jpg_1 = require("./images/BrainTumor.jpg");
+var portfolio_png_1 = require("./images/portfolio.png");
 exports.projects = [
     {
         id: '1',
@@ -48,22 +53,62 @@ exports.projects = [
     },
     {
         id: '5',
-        title: 'Gaming competition',
-        description: ' Aruco Navigatioon robot made for competition',
-        imageUrl: aruco_navigation_jpeg_1["default"],
+        title: 'Watt with WAT - Game',
+        description: ' Continous Running Game made for Game competition',
+        imageUrl: GameProject_png_1["default"],
         tags: ['Unity', 'C#'],
-        liveUrl: '',
-        githubUrl: 'https://github.com/HashikaChathubhashaka/Autonoumous-Aruco-Navigation-Competition-ROS2/tree/main',
+        liveUrl: 'https://github.com/HashikaChathubhashaka/FrosbiTe-Games/tree/phase4/Phase_3',
+        githubUrl: 'https://github.com/HashikaChathubhashaka/FrosbiTe-Games/tree/phase4',
         featured: true
     },
     {
         id: '6',
+        title: 'Flower Exchanger',
+        description: ' Made for LESG company project',
+        imageUrl: flowerExchanger_jpg_1["default"],
+        tags: ['C++'],
+        liveUrl: '',
+        githubUrl: 'https://github.com/HashikaChathubhashaka/Flower-Exchange',
+        featured: true
+    },
+    {
+        id: '7',
+        title: '3-DOF Robot Arm',
+        description: 'Robotic Arm made for University Project',
+        imageUrl: arm_jpg_1["default"],
+        tags: ['C++'],
+        liveUrl: '',
+        githubUrl: 'https://github.com/HashikaChathubhashaka/Robotic-Arm-Arduino',
+        featured: false
+    },
+    {
+        id: '8',
+        title: 'Brain Tumor Segmentation',
+        description: 'Machine Learning project made as University Project',
+        imageUrl: BrainTumor_jpg_1["default"],
+        tags: ['Python', 'Tensorflow'],
+        liveUrl: '',
+        githubUrl: 'https://github.com/HashikaChathubhashaka/Brain-Tumor-Segmentation',
+        featured: false
+    },
+    {
+        id: '9',
         title: 'Fast Line follower',
         description: ' Aruco Navigatioon robot made for competition',
         imageUrl: aruco_navigation_jpeg_1["default"],
         tags: ['ESP32', 'C++'],
         liveUrl: '',
         githubUrl: 'https://github.com/HashikaChathubhashaka/Line-Rider',
-        featured: true
+        featured: false
+    },
+    {
+        id: '10',
+        title: 'My Portfolio Site',
+        description: 'This is the site you are currently viewing. Built with React and TypeScript.',
+        imageUrl: portfolio_png_1["default"],
+        tags: ['ReactJS', 'TypeScript', 'CSS'],
+        liveUrl: '',
+        githubUrl: 'https://github.com/HashikaChathubhashaka/my-portfolio',
+        featured: false
     },
 ];
