@@ -3,6 +3,8 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 import "./profile.scss";
 import ProfileImage from "./pp.jpg";
 import "./aboutMain.css";
+import "./profile.css";
+
 export function AboutHero() {
   return (
     
@@ -17,7 +19,7 @@ export function AboutHero() {
 
     </div>
     <div className="custom-style">
-        <h1 className="custom-heading pink">Less Consume! More Creative! </h1>
+        <h1 className="custom-heading black">Less Consume...! More Creative...! </h1>
     </div>
     
           <div className="flex items-center justify-center">
@@ -28,7 +30,6 @@ export function AboutHero() {
               <img
                 src={ProfileImage}
                 alt="Profile"
-                className="avatar__image"
               />
               </div>
 
@@ -38,10 +39,10 @@ export function AboutHero() {
 
           
           <div className="flex flex-col justify-center">
-            <p className="mt-0 text-xl justify-center text-center">
+            <p className="mt-10 text-xl justify-center text-center">
  I am a final year undergraduate in Electronic and Telecommunication Engineering.
               </p>
-            <p className="mt-0 text-xl justify-center text-center">
+            <p className="mt-2 text-xl justify-center text-center">
               Always looking for opportunities to <strong> Learn </strong> and <strong>Grow.</strong>
             </p>
 

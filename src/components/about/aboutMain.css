@@ -26,9 +26,11 @@
   }
   
   .pink {
-    text-shadow: 2px 2px rgb(249, 0, 232), 8px 10px rgba(123, 111, 111, 0.341);
+    text-shadow: 2px 2px rgb(0, 0, 0), 8px 10px rgba(123, 111, 111, 0.341);
   }
   
 
-
+  .black {
+    text-shadow: 2px 2px rgb(0, 0, 0), 8px 10px rgba(123, 111, 111, 0.341);
+  }
 

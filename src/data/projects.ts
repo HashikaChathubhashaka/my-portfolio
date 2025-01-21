@@ -3,6 +3,12 @@ import levelImage from './images/level.jpg'; // Adjust path as needed
 import ArucoImage from './images/aruco navigation.jpeg'; // Adjust path as needed
 import DualRobot from './images/dual robot.jpeg'; // Adjust path as needed
 import MCQ from './images/MCQ site.jpg'; // Adjust path as needed
+import GameImage from './images/GameProject.png'; // Adjust path as needed
+import FlowerImage from './images/flowerExchanger.jpg'; // Adjust path as needed
+import ArmImage from './images/arm.jpg'; // Adjust path as needed
+import BrainImage from './images/BrainTumor.jpg';
+import portfolioImage from './images/portfolio.png'; 
+
 export const projects: Project[] = [
   {
     id: '1',
@@ -51,16 +57,52 @@ export const projects: Project[] = [
 
   {
     id: '5',
-    title: 'Gaming competition',
-    description: ' Aruco Navigatioon robot made for competition',
-    imageUrl: ArucoImage,
+    title: 'Watt with WAT - Game',
+    description: ' Continous Running Game made for Game competition',
+    imageUrl: GameImage,
     tags: ['Unity', 'C#'],
-    liveUrl: '',
-    githubUrl: 'https://github.com/HashikaChathubhashaka/Autonoumous-Aruco-Navigation-Competition-ROS2/tree/main',
+    liveUrl: 'https://github.com/HashikaChathubhashaka/FrosbiTe-Games/tree/phase4/Phase_3',
+    githubUrl: 'https://github.com/HashikaChathubhashaka/FrosbiTe-Games/tree/phase4',
     featured: true
   },
+
   {
     id: '6',
+    title: 'Flower Exchanger',
+    description: ' Made for LESG company project',
+    imageUrl: FlowerImage,
+    tags: ['C++'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/HashikaChathubhashaka/Flower-Exchange',
+    featured: true
+  },
+
+  {
+    id: '7',
+    title: '3-DOF Robot Arm',
+    description: 'Robotic Arm made for University Project',
+    imageUrl: ArmImage,
+    tags: ['C++'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/HashikaChathubhashaka/Robotic-Arm-Arduino',
+    featured: false
+  },
+
+  {
+    id: '8',
+    title: 'Brain Tumor Segmentation',
+    description: 'Machine Learning project made as University Project',
+    imageUrl: BrainImage,
+    tags: ['Python', 'Tensorflow'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/HashikaChathubhashaka/Brain-Tumor-Segmentation',
+    featured: false
+  },
+
+
+
+  {
+    id: '9',
     title: 'Fast Line follower',
     description: ' Aruco Navigatioon robot made for competition',
     imageUrl: ArucoImage,
@@ -70,15 +112,16 @@ export const projects: Project[] = [
     featured: false
   },
 
-  // {
-  //   id: '2',
-  //   title: 'AI Task Manager',
-  //   description: 'Smart task management application that uses AI to prioritize and categorize tasks. Built with React and OpenAI API.',
-  //   imageUrl: 'https://images.unsplash.com/photo-1661956602868-6ae368943878?auto=format&fit=crop&q=80&w=1280',
-  //   tags: ['React', 'OpenAI', 'TypeScript'],
-  //   liveUrl: 'https://example.com',
-  //   githubUrl: 'https://github.com',
-  //   featured: true
-  // },
+  {
+    id: '10',
+    title: 'My Portfolio Site',
+    description: 'This is the site you are currently viewing. Built with React and TypeScript.',
+    imageUrl: portfolioImage,
+    tags: ['ReactJS', 'TypeScript', 'CSS'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/HashikaChathubhashaka/my-portfolio',
+    featured: false
+  },
+
 
 ];
