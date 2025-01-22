@@ -68,7 +68,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        &copy; 2024 HasHikA. All Rights Reserved.
+        &copy; 2025 HasHikA. All Rights Reserved.
 
         <div className="social-links-row">
 
