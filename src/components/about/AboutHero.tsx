@@ -40,11 +40,9 @@ export function AboutHero() {
           
           <div className="flex flex-col justify-center">
             <p className="mt-10 text-xl justify-center text-center">
- I am a final year undergraduate in Electronic and Telecommunication Engineering.
+            Final-year Electronic and Telecommunication Engineering student passionate about <strong> innovation,</strong> <strong>learning</strong>, and<strong> creating </strong>impactful tech solutions.🚀
               </p>
-            <p className="mt-2 text-xl justify-center text-center">
-              Always looking for opportunities to <strong> Learn </strong> and <strong>Grow.</strong>
-            </p>
+
 
           </div>
 

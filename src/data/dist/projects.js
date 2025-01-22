@@ -37,8 +37,8 @@ exports.projects = [
         description: ' Aruco Navigatioon robot made for competition',
         imageUrl: dual_robot_jpeg_1["default"],
         tags: ['C++', 'Solidworks'],
-        liveUrl: '',
-        githubUrl: 'https://github.com/HashikaChathubhashaka/Autonoumous-Aruco-Navigation-Competition-ROS2/tree/main',
+        liveUrl: 'https://drive.google.com/file/d/1RHK2uEHMHc_EzkDPTjifEKl-1gp5lR_E/view?usp=drive_link',
+        githubUrl: 'https://github.com/HashikaChathubhashaka/Dual-Robot-Systerm-Exmo-exhibition',
         featured: true
     },
     {
@@ -53,7 +53,7 @@ exports.projects = [
     },
     {
         id: '5',
-        title: 'Watt with WAT - Game',
+        title: 'WATT with VAT-WebGL Game',
         description: ' Continous Running Game made for Game competition',
         imageUrl: GameProject_png_1["default"],
         tags: ['Unity', 'C#'],
@@ -93,16 +93,6 @@ exports.projects = [
     },
     {
         id: '9',
-        title: 'Fast Line follower',
-        description: ' Aruco Navigatioon robot made for competition',
-        imageUrl: aruco_navigation_jpeg_1["default"],
-        tags: ['ESP32', 'C++'],
-        liveUrl: '',
-        githubUrl: 'https://github.com/HashikaChathubhashaka/Line-Rider',
-        featured: false
-    },
-    {
-        id: '10',
         title: 'My Portfolio Site',
         description: 'This is the site you are currently viewing. Built with React and TypeScript.',
         imageUrl: portfolio_png_1["default"],

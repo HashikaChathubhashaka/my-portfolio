@@ -140,9 +140,9 @@ function Home() {
   </div>
 </div>
 
-<div style={{ marginTop: '65px' }}>
+{/* <div style={{ marginTop: '65px' }}>
       <a className='a1' href="#" style={{ textAlign: 'center' }}>My Resume</a>
-    </div>
+    </div> */}
   </div>
 
 

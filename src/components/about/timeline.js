@@ -13,7 +13,7 @@ const Timeline = () => {
               <strong>Arimac Lanka (Private) Limited</strong>
             </h4>
             <p>
-            Work on Project "LULU" Robot which is an indoor navigation robot made for resturants.
+            Work on Project 'LULU' Robot Software: An Indoor Navigation Robot Designed for Restaurants.
 
 
             </p>
