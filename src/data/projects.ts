@@ -40,7 +40,7 @@ export const projects: Project[] = [
     imageUrl: DualRobot,
     tags: [ 'C++' ,'Solidworks'],
     liveUrl: 'https://drive.google.com/file/d/1RHK2uEHMHc_EzkDPTjifEKl-1gp5lR_E/view?usp=drive_link',
-    githubUrl: 'https://github.com/HashikaChathubhashaka/Autonoumous-Aruco-Navigation-Competition-ROS2/tree/main',
+    githubUrl: 'https://github.com/HashikaChathubhashaka/Dual-Robot-Systerm-Exmo-exhibition',
     featured: true
   },
 
